@@ -4,9 +4,8 @@ import { useState, useEffect, useRef } from "react";
 import { Paperclip, PaperPlaneTiltIcon, Camera, Smiley, PlusCircle, Image as ImageIcon, FileText, MusicNotes, VideoCamera } from "@phosphor-icons/react";
 import Image from "next/image";
 import dynamic from 'next/dynamic';
-import Sidebar from "@/components/sidebar";
-import AdminNavbar from "@/components/admin-navbar";
-import Footer from "@/components/admin-footer";
+import AdminNavbar from "../../../components/admin-navbar";
+import Footer from "../../../components/admin-footer";
 
 const EmojiPicker = dynamic(() => import('emoji-picker-react'), { ssr: false });
 
@@ -57,7 +56,6 @@ const ChatPage = () => {
     <div className="bg-gray-100 min-h-screen">
       <AdminNavbar />
       <div className="flex">
-        <Sidebar />
 
         <main className="ml-64 mt-16 flex flex-col flex-1">
           <div className="flex h-[calc(100vh-7rem)]">

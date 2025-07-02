@@ -1,7 +1,7 @@
 'use client'
-import Sidebar from "@/components/sidebar";
-import AdminNavbar from "@/components/admin-navbar";
-import Footer from "@/components/admin-footer";
+
+import AdminNavbar from "../../../../components/admin-navbar";
+import Footer from "../../../../components/admin-footer";
 import {
   MagnifyingGlassIcon,
   PlusCircleIcon,
@@ -63,7 +63,6 @@ export default function ProjectDashboard() {
   return (
     <div className="bg-gradient-to-tr from-gray-100 to-blue-50 min-h-screen">
       <AdminNavbar />
-      <Sidebar />
 
       <main className="ml-64 pt-20 pb-16 px-6">
         <div className="flex flex-wrap items-center justify-between gap-4 mb-6">

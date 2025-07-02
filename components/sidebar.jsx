@@ -78,7 +78,7 @@ export default function Sidebar() {
             </Link>
           </li>
           <li>
-            <Link href="/logout" className={linkClass("/logout")}>
+            <Link href="/auth/login" className={linkClass("/logout")}>
               <SignOut size={20} /> <span>Logout</span>
             </Link>
           </li>

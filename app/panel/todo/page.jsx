@@ -11,9 +11,8 @@ import {
   Circle,
 } from '@phosphor-icons/react';
 
-import AdminNavbar from '@/components/admin-navbar';
-import Sidebar from '@/components/sidebar';
-import Footer from '@/components/admin-footer';
+import AdminNavbar from '../../../components/admin-navbar';
+import Footer from '../../../components/admin-footer';
 
 const TodoPage = () => {
   const team = [
@@ -68,8 +67,6 @@ const TodoPage = () => {
       <AdminNavbar />
 
       <div className="flex">
-        {/* Sidebar */}
-        <Sidebar />
 
         {/* Main Content */}
         <main className="flex-1 ml-64 p-8">
