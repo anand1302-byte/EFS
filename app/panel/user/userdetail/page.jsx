@@ -3,10 +3,8 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { Pencil, EnvelopeSimple, Phone, MapPin, Calendar, Briefcase, GraduationCap, Clock, Trophy, CaretLeft } from '@phosphor-icons/react';
-import AdminNavbar from '@/components/admin-navbar';
-import Footer from '@/components/admin-footer';
+import AdminNavbar from '../../../../components/admin-navbar';
 import { useRouter } from 'next/navigation';
-
 
 const UserDetail = () => {
   const router = useRouter();

@@ -13,7 +13,7 @@ import {
   PresentationChart,
   ArrowLeft,
 } from "@phosphor-icons/react";
-import AdminNavbar from "@/components/admin-navbar";
+import AdminNavbar from "../../../../components/admin-navbar";
 
 const ProjectDetailPage = () => {
   const router = useRouter();
